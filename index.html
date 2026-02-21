@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KTU High ProfitsX</title>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Exo+2:wght@400;600;700;800;900&family=Russo+One&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="poster">
+
+  <canvas id="bgCanvas"></canvas>
+  <div class="bg-overlay"></div>
+  <div class="bg-grid"></div>
+
+  <div class="top-bar"></div>
+
+  <div class="main">
+
+    <!-- ═══ LEFT COLUMN ═══ -->
+    <div class="col-left">
+      <svg class="robot-svg" viewBox="0 0 260 420">
+        <ellipse cx="130" cy="90" rx="70" ry="70" fill="none" stroke="rgba(0,150,255,0.28)" stroke-width="1.5"/>
+        <ellipse cx="130" cy="90" rx="56" ry="56" fill="rgba(0,35,100,0.55)" stroke="rgba(0,180,255,0.5)" stroke-width="1.3"/>
+        <rect x="88" y="76" width="84" height="18" rx="3" fill="rgba(0,190,255,0.14)" stroke="rgba(0,220,255,0.6)" stroke-width="0.9"/>
+        <ellipse cx="110" cy="85" rx="10" ry="5" fill="rgba(0,220,255,0.8)"/>
+        <ellipse cx="150" cy="85" rx="10" ry="5" fill="rgba(0,220,255,0.8)"/>
+        <line x1="130" y1="30" x2="130" y2="47" stroke="rgba(0,180,255,0.45)" stroke-width="0.9"/>
+        <circle cx="130" cy="28" r="4" fill="rgba(0,180,255,0.6)"/>
+        <path d="M55,155 Q38,138 45,162 L68,185 Q60,168 55,155Z" fill="rgba(15,55,140,0.65)" stroke="rgba(0,120,255,0.45)" stroke-width="0.9"/>
+        <path d="M205,155 Q222,138 215,162 L192,185 Q200,168 205,155Z" fill="rgba(15,55,140,0.65)" stroke="rgba(0,120,255,0.45)" stroke-width="0.9"/>
+        <path d="M72,152 L188,152 L200,198 L185,258 L75,258 L60,198Z" fill="rgba(8,35,110,0.6)" stroke="rgba(0,100,240,0.38)" stroke-width="1.3"/>
+        <circle cx="130" cy="208" r="18" fill="rgba(0,65,190,0.35)" stroke="rgba(0,160,255,0.6)" stroke-width="1.6"/>
+        <circle cx="130" cy="208" r="10" fill="rgba(0,120,255,0.45)"/>
+        <circle cx="130" cy="208" r="5" fill="rgba(0,210,255,0.85)"/>
+        <rect x="32" y="165" width="32" height="78" rx="6" fill="rgba(8,35,110,0.6)" stroke="rgba(0,100,240,0.32)" stroke-width="0.9"/>
+        <rect x="196" y="165" width="32" height="78" rx="6" fill="rgba(8,35,110,0.6)" stroke="rgba(0,100,240,0.32)" stroke-width="0.9"/>
+        <path d="M75,258 L99,318 L161,318 L185,258Z" fill="rgba(8,30,100,0.58)" stroke="rgba(0,85,210,0.3)" stroke-width="0.9"/>
+        <rect x="90" y="318" width="38" height="60" rx="3" fill="rgba(8,30,100,0.55)" stroke="rgba(0,85,210,0.24)" stroke-width="0.9"/>
+        <rect x="132" y="318" width="38" height="60" rx="3" fill="rgba(8,30,100,0.55)" stroke="rgba(0,85,210,0.24)" stroke-width="0.9"/>
+      </svg>
+
+      <div class="live-badge"><div class="live-dot"></div><span>Live Account · Verified</span></div>
+
+      <div>
+        <div class="col-label">// Verified Myfxbook Stats</div>
+        <div class="vstats">
+          <div class="vstat"><span class="vl">Total Gain</span><span class="vv green">+33.04%</span></div>
+          <div class="vstat"><span class="vl">Abs. Gain</span><span class="vv green">+26.09%</span></div>
+          <div class="vstat"><span class="vl">Monthly</span><span class="vv green">33.04%</span></div>
+          <div class="vstat"><span class="vl">Daily Avg</span><span class="vv green">1.69%</span></div>
+          <div class="vstat"><span class="vl">Drawdown</span><span class="vv white">3.88%</span></div>
+          <div class="vstat"><span class="vl">Balance</span><span class="vv white">$31,267</span></div>
+          <div class="vstat"><span class="vl">Net Profit</span><span class="vv gold">$9,432</span></div>
+          <div class="vstat"><span class="vl">Peak Balance</span><span class="vv white">$36,670</span></div>
+        </div>
+        <div class="mx-widget" style="margin-top:0.8vh;">
+          <a href="https://www.myfxbook.com/statements/11919814/statement.html" target="_blank" rel="noopener">
+            <img alt="myfxbook widget" src="https://widget.myfxbook.com/widget/widget.png?accountOid=11919814&type=6"/>
+          </a>
+        </div>
+      </div>
+
+      <div>
+        <div class="col-label">// How It Works</div>
+        <div class="steps">
+          <div class="step-row"><div class="sn"><span>1</span></div><div class="st">Fund Your Account</div></div>
+          <div class="step-row"><div class="sn"><span>2</span></div><div class="st">Connect To Our EA</div></div>
+          <div class="step-row"><div class="sn"><span>3</span></div><div class="st">Trades Copy Automatically</div></div>
+          <div class="step-row"><div class="sn"><span>4</span></div><div class="st">Collect Your 70% Profits</div></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ═══ CENTER COLUMN ═══ -->
+    <div class="col-center">
+      <div class="vert-line-l"></div>
+      <div class="vert-line-r"></div>
+
+      <div class="title-block">
+        <div class="ea-eye">// Expert Advisor · Algorithmic Trading System</div>
+        <div class="main-title">KTU HIGH<br>PROFITS<span class="gx">X</span></div>
+        <div class="sub-bar">
+          <div class="sub-ln ll"></div>
+          <span>Private Copy Trading Access</span>
+          <div class="sub-ln rr"></div>
+        </div>
+        <div class="nfs">⚡ Not For Sale &nbsp;·&nbsp; Min. Investment: $300</div>
+      </div>
+
+      <div class="metrics">
+        <div class="metric">
+          <div class="m-lbl">Weekly Returns</div>
+          <div class="m-val">7–12%</div>
+          <div class="m-sub">Average per week</div>
+        </div>
+        <div class="metric">
+          <div class="m-lbl">Investor Share</div>
+          <div class="m-val blue">70%</div>
+          <div class="m-sub">Of all profits</div>
+        </div>
+      </div>
+
+      <div class="vs-row">
+        <div class="vs-badge inv"><div class="vs-pct">70%</div><div class="vs-role">Investor</div></div>
+        <div class="vs-circle">VS</div>
+        <div class="vs-badge mgmt"><div class="vs-pct">30%</div><div class="vs-role">Management</div></div>
+      </div>
+
+      <div class="contacts-row">
+        <a class="contact-card instagram" href="https://www.instagram.com/trader_mgk?igsh=MXMxYnlpNnB6d215ag==" target="_blank" rel="noopener noreferrer" aria-label="Open Instagram profile @trader_mgk">
+          <div class="c-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" role="img" aria-hidden="true"><path fill="currentColor" d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm5 6.2A4.8 4.8 0 1 0 16.8 13 4.8 4.8 0 0 0 12 8.2zm5.2-2.4a1.12 1.12 0 1 0 1.12 1.12A1.12 1.12 0 0 0 17.2 5.8zM12 10.6A1.4 1.4 0 1 1 10.6 12 1.4 1.4 0 0 1 12 10.6z"/></svg>
+          </div>
+          <div><div class="c-plat">Instagram</div><div class="c-val">@trader_mgk</div></div>
+        </a>
+        <a class="contact-card telegram" href="https://t.me/FxMGK" target="_blank" rel="noopener noreferrer" aria-label="Open Telegram @FxMGK">
+          <div class="c-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" role="img" aria-hidden="true"><path fill="currentColor" d="M21 3L3 10.2c-.5.2-.5.6-.1.8L8.4 13l2.1 5.6c.2.5.6.6 1 .2L21 6.1c.4-.4.2-.9-.1-1.1z"/></svg>
+          </div>
+          <div><div class="c-plat">Telegram</div><div class="c-val">@FxMGK</div></div>
+        </a>
+        <a class="contact-card whatsapp" href="https://wa.me/254792938609" target="_blank" rel="noopener noreferrer" aria-label="Open WhatsApp chat +254792938609">
+          <div class="c-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" role="img" aria-hidden="true"><path fill="currentColor" d="M20.5 3.5A11 11 0 0 0 3.2 20.7L2 22l1.4-.4A11 11 0 1 0 20.5 3.5zM12 19.2c-.9 0-1.8-.2-2.6-.6l-.2-.1-1.6.4.4-1.5-.1-.2a6.3 6.3 0 0 1-1-3.6c0-3.5 2.8-6.4 6.3-6.4 1.7 0 3.3.7 4.5 1.9 1.2 1.2 1.9 2.8 1.9 4.5 0 3.5-2.8 6.3-6.2 6.3zM16.2 14.7c-.2-.1-1.1-.6-1.3-.7-.2-.1-.4-.1-.5.1-.1.1-.5.7-.6.8-.1.1-.2.2-.4.1-.5-.2-1-1-1.2-1.4-.1-.2 0-.3.1-.4.1-.1.2-.2.3-.4.1-.1.1-.3 0-.5-.1-.2-.5-1.1-.7-1.5-.2-.4-.4-.3-.6-.3-.2 0-.4 0-.6 0-.2 0-.5.1-.8.4-.3.3-1 1-.1 2.6.9 1.6 2 2.8 3.7 3.6 1.3.6 1.9.6 2.6.5.4-.1 1.1-.5 1.3-1 .2-.5.2-1 .1-1.2-.1-.2-.5-.3-.7-.4z"/></svg>
+          </div>
+          <div><div class="c-plat">WhatsApp</div><div class="c-val wa">+254 792 938 609</div></div>
+        </a>
+      </div>
+    </div>
+
+    <!-- ═══ RIGHT COLUMN ═══ -->
+    <div class="col-right">
+      <svg class="robot-right" viewBox="0 0 260 420">
+        <ellipse cx="130" cy="90" rx="70" ry="70" fill="none" stroke="rgba(0,150,255,0.28)" stroke-width="1.5"/>
+        <ellipse cx="130" cy="90" rx="56" ry="56" fill="rgba(0,35,100,0.55)" stroke="rgba(0,180,255,0.5)" stroke-width="1.3"/>
+        <rect x="88" y="76" width="84" height="18" rx="3" fill="rgba(0,190,255,0.14)" stroke="rgba(0,220,255,0.6)" stroke-width="0.9"/>
+        <ellipse cx="110" cy="85" rx="10" ry="5" fill="rgba(0,220,255,0.8)"/>
+        <ellipse cx="150" cy="85" rx="10" ry="5" fill="rgba(0,220,255,0.8)"/>
+        <line x1="130" y1="30" x2="130" y2="47" stroke="rgba(0,180,255,0.45)" stroke-width="0.9"/>
+        <circle cx="130" cy="28" r="4" fill="rgba(0,180,255,0.6)"/>
+        <path d="M55,155 Q38,138 45,162 L68,185 Q60,168 55,155Z" fill="rgba(15,55,140,0.65)" stroke="rgba(0,120,255,0.45)" stroke-width="0.9"/>
+        <path d="M205,155 Q222,138 215,162 L192,185 Q200,168 205,155Z" fill="rgba(15,55,140,0.65)" stroke="rgba(0,120,255,0.45)" stroke-width="0.9"/>
+        <path d="M72,152 L188,152 L200,198 L185,258 L75,258 L60,198Z" fill="rgba(8,35,110,0.6)" stroke="rgba(0,100,240,0.38)" stroke-width="1.3"/>
+        <circle cx="130" cy="208" r="18" fill="rgba(0,65,190,0.35)" stroke="rgba(0,160,255,0.6)" stroke-width="1.6"/>
+        <circle cx="130" cy="208" r="10" fill="rgba(0,120,255,0.45)"/>
+        <circle cx="130" cy="208" r="5" fill="rgba(0,210,255,0.85)"/>
+        <rect x="32" y="165" width="32" height="78" rx="6" fill="rgba(8,35,110,0.6)" stroke="rgba(0,100,240,0.32)" stroke-width="0.9"/>
+        <rect x="196" y="165" width="32" height="78" rx="6" fill="rgba(8,35,110,0.6)" stroke="rgba(0,100,240,0.32)" stroke-width="0.9"/>
+        <path d="M75,258 L99,318 L161,318 L185,258Z" fill="rgba(8,30,100,0.58)" stroke="rgba(0,85,210,0.3)" stroke-width="0.9"/>
+        <rect x="90" y="318" width="38" height="60" rx="3" fill="rgba(8,30,100,0.55)" stroke="rgba(0,85,210,0.24)" stroke-width="0.9"/>
+        <rect x="132" y="318" width="38" height="60" rx="3" fill="rgba(8,30,100,0.55)" stroke="rgba(0,85,210,0.24)" stroke-width="0.9"/>
+      </svg>
+
+      <div>
+        <div class="col-label">// Additional Stats</div>
+        <div class="mini-cards">
+          <div class="mini-card"><span class="mc-l">Deposits</span><span class="mc-v">$36,154</span></div>
+          <div class="mini-card"><span class="mc-l">Withdrawals</span><span class="mc-v">$14,319</span></div>
+          <div class="mini-card"><span class="mc-l">Equity</span><span class="mc-v">$31,262</span></div>
+          <div class="mini-card"><span class="mc-l">Equity %</span><span class="mc-v g">99.98%</span></div>
+          <div class="mini-card"><span class="mc-l">Tracking</span><span class="mc-v g">Active ●</span></div>
+        </div>
+      </div>
+
+      <div>
+        <div class="col-label">// Official Broker</div>
+        <div class="broker-box">
+          <div class="br-lbl">Copy Trading Powered By</div>
+          <div class="br-name">▪ <span>Robo</span>Forex</div>
+          <div class="br-tags">
+            <div class="br-tag">Regulated Broker</div>
+            <div class="br-tag">Instant Execution</div>
+            <div class="br-tag">Copy Trading Platform</div>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div class="risk-box">
+          <div class="risk-title">Risk Disclosure</div>
+          <div class="risk-text">
+            Forex &amp; CFD trading involves <strong>substantial risk of loss</strong> and is not suitable for all investors. Leverage can work against you. <strong>Past performance does not guarantee future results.</strong> Only invest <strong>capital you can afford to lose.</strong> This is not financial advice.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- BOTTOM DISCLAIMER -->
+  <div class="bottom-disclaimer">
+    <div class="disc-icon">⚠️</div>
+    <div class="disc-text"><strong>Risk Warning:</strong> Trading foreign exchange on margin carries a high level of risk and may not be suitable for all investors. Leverage can work against you as well as for you.</div>
+    <div class="disc-sep"></div>
+    <div class="disc-text">Before deciding to trade, carefully consider your investment objectives, experience level, and risk appetite. You could sustain a loss of some or all of your initial investment.</div>
+    <div class="disc-sep"></div>
+    <div class="disc-text"><strong>Past performance is not indicative of future results.</strong> &nbsp;Serious investors only · Performance-based · No guarantees · Capital at risk.</div>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
